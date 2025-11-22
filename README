@@ -1,1 +1,15 @@
-Nous allons créer un jeu de dame.
+Jeu de Dames minimal avec interface Pygame.
+
+## Lancer le jeu
+
+```
+python3 main.py
+```
+
+## Contrôles
+
+- Cliquez sur une pièce pour voir ses mouvements (captures obligatoires gérées automatiquement).
+- Cliquez sur une case en surbrillance pour jouer le coup.
+- Appuyez sur la touche **H** pour obtenir une suggestion de coup (pièce et destination mises en évidence par un halo bleu pulsé et un texte « Suggestion de coup » en bas de l’écran).
+- La barre supérieure affiche le joueur actif et des minuteurs cumulés pour chaque couleur.
+- L’IA contrôle par défaut les pions noirs : après le tour humain, elle joue instantanément. Ajustez sa difficulté à la volée avec **1** (facile aléatoire), **2** (capture prioritaire) ou **3** (minimax rapide). Les niveaux sélectionnés sont loggés dans la console.
